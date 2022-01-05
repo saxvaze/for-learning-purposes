@@ -1,0 +1,26 @@
+/*
+    implementation
+*/
+.with-arrow {
+    padding-right: 13px;
+    background-image: url('../images/arrow-down.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 9px;
+}
+
+.welcome-user {
+    margin-right: 24px;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.btn-blue {
+    border: 1px solid #3665f3;
+    color: #3665f3;
+    border-radius: 12px;
+    padding: 3px 15px;
+    font-weight: bold;
+}

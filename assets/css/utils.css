@@ -1,0 +1,63 @@
+/*
+    utility classes
+*/
+.generic-wrapper {
+    width: 1248px;
+    margin: 0 auto;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+.d-flex {
+    display: flex;
+}
+
+.m-l-1 {
+    margin-left: 4px;
+}
+.m-l-2 {
+    margin-left: 6px;
+}
+.m-l-3 {
+    margin-left: 8px;
+}
+.m-l-4 {
+    margin-left: 10px;
+}
+.m-l-5 {
+    margin-left: 12px;
+}
+
+.m-r-1 {
+    margin-right: 4px;
+}
+.m-r-2 {
+    margin-right: 6px;
+}
+.m-r-3 {
+    margin-right: 8px;
+}
+.m-r-4 {
+    margin-right: 10px;
+}
+.m-r-5 {
+    margin-right: 12px;
+}
+
+.icon {
+    width: 22px;
+    position: absolute;
+    top: 4px;
+}
+.fake-icon {
+    width: 22px;
+}

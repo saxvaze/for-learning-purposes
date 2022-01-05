@@ -1,0 +1,11 @@
+/*
+    site architecture
+*/
+body {
+    font-family: "Market Sans", Arial, sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 8px;
+}
