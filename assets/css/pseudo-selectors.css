@@ -1,0 +1,39 @@
+#search {
+    border: 1px solid grey;
+    border-radius: 2px;
+    padding: 4px;
+    outline: none;
+}
+
+#search:hover {
+    border: 1px solid #80bdff;
+}
+
+#search:focus {
+    border: 2px solid #80bdff;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+li:nth-child(even) {
+    color: purple;
+}
+
+li:nth-child(odd) {
+    color:rebeccapurple;
+}
+
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: green;
+}
+
+li:nth-child(4) {
+    color: blue;
+}
