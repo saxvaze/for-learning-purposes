@@ -24,3 +24,65 @@
     padding: 3px 15px;
     font-weight: bold;
 }
+
+.logo {
+    display: inline-block;
+    width: 100px;
+}
+
+.box {
+    border: 3px solid black;
+}
+
+.glass {
+    width: 22px;
+}
+
+.search-wrapper {
+    margin: 15px auto 0 auto !important;
+}
+
+.margin-l {
+    margin-left: 380px;
+}
+
+.arrow-padding {
+    padding-right: 60px;
+}
+
+
+.btn-search {
+    border: 1px solid #3665f3;
+    background-color: #3665f3;
+    color: white;
+    padding: 15px 15px;
+    font-size: 14px;
+    width: 140px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.style-4-advanced {
+    border: 1px solid white;
+    padding: 15px 15px;
+    font-size: 11px;
+    text-align: center;
+    margin: 0 1px;
+}
+
+.width
+ {
+     width: 70px;
+ }
+
+ 
+.side-border {
+    border-left:  1px solid #999;
+    padding: 10px 9px;
+
+}
+
+.inside-padding {
+    display: inline-block;
+    padding-top: 10px;
+}
