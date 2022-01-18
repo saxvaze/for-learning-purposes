@@ -7,34 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/loginform.css">
+    <link rel="stylesheet" href="./assets/css/login-form.css">
 </head>
 
 <body>
     <div class="login-wrap">
-        <div>
-            <h1>SIGN UP</h1>
+        <div class="bg-shade">
+            <h1 class="title">SIGN UP</h1>
             <div class="group">
                 <label for="username" class="label">USERNAME</label>
-                <input type="text" id="user">
+                <input type="text" id="username" class="custom-input">
             </div>
             <div class="group">
-                <label for="username" class="label">PASSWORD</label>
-                <input type="password" id="pass">
+                <label for="password" class="label">PASSWORD</label>
+                <input type="password" id="password" class="custom-input">
             </div>
             <div class="group">
-                <label for="password" class="label">REPEAT PASSWORD</label>
-                <input type="password" id="pass">
+                <label for="repeat-password" class="label">REPEAT PASSWORD</label>
+                <input type="password" id="repeat-password" class="custom-input">
             </div>
             <div class="group">
                 <label for="email">EMAIL ADRESS</label>
-                <input type="email" id="email">
+                <input type="email" id="email" class="custom-input">
             </div>
             <div class="group">
-                <input type="radio" id="Male" name="Male" value="red">
-                <label for="Male" class="Male">Male</label>
-                <input type="radio" id="Female" name="Female" value="Female">
-                <label for="Female" class="female">Female</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male" class="Male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female" class="female">Female</label>
             </div>
             <div class="group">
                 <select name="country">
@@ -54,9 +55,11 @@
                 </select>
             </div>
             <div>
-                <input id="check" type="checkbox" class="check" checked>
-                <label for="check"><span class="icon"></span>I agree to the <a href="">Terms & Conditions</a> and <a
-                        href="">Privacy Policy</a>.</label>
+                <input id="check" type="checkbox" class="check">
+                <label for="check">
+                    I agree to the <a href="">Terms & Conditions</a>
+                    and <a href="">Privacy Policy</a>.
+                </label>
             </div>
             <div class="group btn-blue">
                 <input type="submit" class="button" value="SIGN UP">
