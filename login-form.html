@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/loginform.css">
+</head>
+
+<body>
+    <div class="login-wrap">
+        <div class="big-group">
+            <h1>SIGN UP</h1>
+            <div class="group">
+                <label for="username" class="label">USERNAME</label>
+                <input type="text" id="user">
+            </div>
+            <div class="group">
+                <label for="username" class="label">PASSWORD</label>
+                <input type="password" id="pass">
+            </div>
+            <div class="group">
+                <label for="password" class="label">REPEAT PASSWORD</label>
+                <input type="password" id="pass">
+            </div>
+            <div class="group">
+                <label for="email">EMAIL ADRESS</label>
+                <input type="email" id="email">
+            </div>
+            <div class="group">
+                <input type="radio" id="Male" name="Male" value="red">
+                <label for="Male" class="Male">Male</label>
+                <input type="radio" id="Female" name="Female" value="Female">
+                <label for="Female" class="female">Female</label>
+            </div>
+            <div class="group">
+                <select name="country">
+                    <option disabled selected hidden>Choose country...</option>
+                    <optgroup label="England">
+                        <option>Kent</option>
+                        <option>Essex</option>
+                    </optgroup>
+                    <optgroup label="Wales">
+                        <option>Anglesey</option>
+                        <option>Glamorgan</option>
+                    </optgroup>
+                    <optgroup label="Scotland">
+                        <option value="">Angus</option>
+                        <option value="">Orkney</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <input id="check" type="checkbox" class="check" checked>
+                <label for="check"><span class="icon"></span>I agree to the <a href="">Terms & Conditions</a> and <a
+                        href="">Privacy Policy</a>.</label>
+            </div>
+            <div class="group btn-blue">
+                <input type="submit" class="button" value="SIGN UP">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
