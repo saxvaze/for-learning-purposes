@@ -1,0 +1,58 @@
+body {
+    margin: 10px;
+    background-color:  #76b852;
+    font-family: "Roboto", sans-serif;
+    color: rgb(145, 145, 145);
+}
+
+.login-wrap {
+    margin: 0 auto;
+    width: 368px;
+    background-position: center;
+    padding: 66px 0 0 0;
+}
+
+.form {
+    text-align: center;
+    padding: 45px;
+    background-color: white;   
+    padding: 45px;
+    border: none;
+    box-shadow: 0 0 10px 0px #86808099;
+    margin-bottom: 100px;
+  
+}
+
+.form-input {
+    margin: 0 0 15 0;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    border: none;
+    margin: 0 0 15px 0;
+}
+
+.button {
+    background: #4CAF50;
+    border: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    padding: 15px;
+    width: 100%;
+}
+
+.group {
+    font-size: 14px;
+}
+
+.message {
+    margin: 15px 0 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.link {
+    text-decoration: none;
+    color: #4CAF50;
+}
