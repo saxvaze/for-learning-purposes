@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <title>Survey Form</title>
+</head>
+<body>
+  <div class="conteiner">
+    <h1 id="title">Are you into Cars?</h1>
+    <p id="description"><strong>This will help us to know, if our blog is for you</strong></p>
+    <form id="survey-form">
+      <label id="name-label" for="name" class="resize">Name</label><br>
+      <input type="text" id="name" placeholder="Enter your name here" required class="resize"><br>
+      <label id="email-label" for="email" class="resize">Email</label><br>
+      <input type="email" id="email" placeholder="Enter your email here" required class="resize"><br>
+      <label id="number-label" for="number" class="resize">Age</label><br>
+      <input type="number" id="age" placeholder="Eneter your age here" required min="18" max="70"  class="resize"><br>
+      <label id="cars-label" for="cars">Select your car</label><br>
+  <select name="cars" id="dropdown" class="cars">
+  <option value="Mercedes">Mercedes-Benz</option>
+  <option value="BMW">BMW</option>
+  <option value="Porsche">Porsche</option>
+  <option value="Audi">Audi</option>
+</select><br>
+      <label id="gender-label" for="gender">Select your gender</label><br>
+      <input type="radio"	name="Gender" value="Male">Male<br>
+			<input type="radio"	name="Gender" value="Female">Female<br>
+			<input type="radio"	name="Gender" value="Other">Other<br>
+      <lable id="question-label" for="question">How did you hear about us?</label><br>
+      <input type="checkbox" value="social-media">Social Media<br>
+			<input type="checkbox" value="TV">TV<br>
+      <input type="checkbox" value="friends">From friends<br>
+      <label for="survey">Additional information:</label><br>
+<textarea id="survey" name="survey" rows="10" cols="47" placeholder="Type your text here" class="resize-box"></textarea><br>
+      <input type="Submit" value="Submit" class="button">
+    </form>
+  </div>
+</body>
+</html>
